@@ -1,12 +1,12 @@
 /* Inport Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Default Page */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Styling Main */
@@ -116,7 +116,7 @@ main {
   align-items: center;
   width: 100%;
   height: 50px;
-  font: bold 2.4rem 'Poppins', sans-serif;
+  font: bold 2.4rem "Poppins", sans-serif;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -147,55 +147,12 @@ main {
   border-radius: 5px;
   border: none;
   outline: 0;
-  font: bold 1.5rem 'Poppins', sans-serif;
+  font: bold 1.5rem "Poppins", sans-serif;
   text-align: center;
 }
 
-.input-check input {
-  position: absolute;
-  opacity: 0;
-}
-
-.container-sex {
-  cursor: pointer;
-}
-
-.checkmark {
-  position: absolute;
-  margin-top: 2px;
-  margin-left: 5px;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
-  border-radius: 50%;
-  transition: 0.2s;
-}
-
-.input-check:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-.input-check input:checked ~ .checkmark {
-  background-color: rgb(0, 74, 255);
-}
-
-.checkmark:after {
-  content: '';
-  position: absolute;
-  display: none;
-}
-
-.input-check input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.input-check .checkmark:after {
-  top: 7px;
-  left: 7px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #fff;
+.input-number input::placeholder {
+  font-size: 15px;
 }
 
 button {
